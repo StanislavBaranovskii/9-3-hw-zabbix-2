@@ -76,7 +76,7 @@
 *Сохраните в Git скриншот карты, где видно, что триггер сработал, с названием `«Задание 5»`.*
 ```
 ```
-![Скриншот карты](https://github.com/StanislavBaranovskii/9-2-hw-zabbix-1/blob/main/img/9.2.3.png "Скриншот карты")
+![Скриншот карты](https://github.com/StanislavBaranovskii/9-2-hw-zabbix-1/blob/main/img/9.3.5.png "Скриншот карты")
 
 ---
 
