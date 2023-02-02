@@ -89,6 +89,22 @@
 
 *Приложите в Git код скрипта, а также скриншот Latest data с результатом работы скрипта на bash, чтобы был виден результат работы скрипта при отправке в него 1 и 2.*
 ```
+#!/bin/bash
+
+if ! [[ $1 =~ ^[0-9]{1}$ ]]; then
+   exit 1
+fi
+
+if [[ $1 == 1 ]]; then
+   echo $(date +"%d.%m.%Y")
+   exit 0 
+fi
+
+if [[ $1 == 2 ]]; then
+   #echo $(finger $USER |grep Name: | cut -d ':' -f 3)
+   echo $(finger baranovsky |grep Name: | cut -d ':' -f 3)
+   exit 0
+fi
 ```
 ![Скриншот Latest data с результатом работы скрипта](https://github.com/StanislavBaranovskii/9-3-hw-zabbix-2/blob/main/img/9-3-6.png "Скриншот Latest data с результатом работы скрипта")
 
